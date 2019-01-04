@@ -1,0 +1,5 @@
+/home/te6000-16/JetBrains.CLion.2018.1.2.Linux.Incl.KeyMaker.14TH.BIRTHDAY-DVT/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/te6000-16/CLionProjects/g2o_example
+-- Found OpenCV: /home/te6000-16/opencv-3.4.2/build (found suitable version "3.4.2", minimum required is "3.4.2") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/te6000-16/CLionProjects/g2o_example/cmake-build-debug

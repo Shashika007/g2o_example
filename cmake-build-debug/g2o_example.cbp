@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="g2o_example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\opencv-3.4.2\;CMake Files\..\..\opencv-3.4.2\build\;CMake Files\..\..\g2o-20170730_git\;CMake Files\..\..\g2o-20170730_git\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="g2o_example">
+				<Option output="/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/g2o_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/build"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/include/opencv"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudev/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/core/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudaarithm/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/flann/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/hdf/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/imgproc/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/ml/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/objdetect/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/phase_unwrapping/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/plot/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/reg/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/surface_matching/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/video/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/xphoto/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudabgsegm/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudafilters/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudaimgproc/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudawarping/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/dnn/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/freetype/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/fuzzy/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/hfs/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/img_hash/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/imgcodecs/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/photo/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/shape/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/videoio/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/xobjdetect/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudacodec/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/face/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/highgui/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/bioinspired/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/dnn_objdetect/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/dpm/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/features2d/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/line_descriptor/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/saliency/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/text/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/calib3d/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/ccalib/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudafeatures2d/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudalegacy/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudaobjdetect/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudaoptflow/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudastereo/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/cvv/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/datasets/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/rgbd/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/stereo/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/structured_light/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/superres/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/tracking/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/videostab/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/xfeatures2d/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/ximgproc/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/aruco/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/bgsegm/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/optflow/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 g2o_example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="g2o_example/fast">
+				<Option output="/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/g2o_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENCV_TRAITS_ENABLE_DEPRECATED"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/build"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/include/opencv"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudev/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/core/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudaarithm/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/flann/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/hdf/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/imgproc/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/ml/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/objdetect/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/phase_unwrapping/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/plot/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/reg/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/surface_matching/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/video/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/xphoto/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudabgsegm/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudafilters/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudaimgproc/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudawarping/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/dnn/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/freetype/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/fuzzy/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/hfs/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/img_hash/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/imgcodecs/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/photo/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/shape/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/videoio/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/xobjdetect/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudacodec/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/face/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/highgui/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/bioinspired/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/dnn_objdetect/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/dpm/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/features2d/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/line_descriptor/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/saliency/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/text/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/calib3d/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/ccalib/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudafeatures2d/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudalegacy/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudaobjdetect/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudaoptflow/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/cudastereo/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/cvv/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/datasets/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/rgbd/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/stereo/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/structured_light/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/superres/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/tracking/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/videostab/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/xfeatures2d/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/ximgproc/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/aruco/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/bgsegm/include"/>
+					<Add directory="/home/te6000-16/opencv_contrib-3.4.2/modules/optflow/include"/>
+					<Add directory="/home/te6000-16/opencv-3.4.2/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 g2o_example/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/te6000-16/CLionProjects/g2o_example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/te6000-16/CLionProjects/g2o_example/main.cpp">
+			<Option target="g2o_example"/>
+		</Unit>
+		<Unit filename="/home/te6000-16/CLionProjects/g2o_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/te6000-16/CLionProjects/g2o_example/../../opencv-3.4.2/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.2\build\"/>
+		</Unit>
+		<Unit filename="/home/te6000-16/CLionProjects/g2o_example/../../opencv-3.4.2/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.2\build\"/>
+		</Unit>
+		<Unit filename="/home/te6000-16/CLionProjects/g2o_example/../../opencv-3.4.2/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.2\build\"/>
+		</Unit>
+		<Unit filename="/home/te6000-16/CLionProjects/g2o_example/../../g2o-20170730_git/cmake_modules/FindCholmod.cmake">
+			<Option virtualFolder="CMake Files\..\..\g2o-20170730_git\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/te6000-16/CLionProjects/g2o_example/../../g2o-20170730_git/cmake_modules/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\..\..\g2o-20170730_git\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/te6000-16/CLionProjects/g2o_example/../../g2o-20170730_git/cmake_modules/FindG2O.cmake">
+			<Option virtualFolder="CMake Files\..\..\g2o-20170730_git\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
